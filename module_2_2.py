@@ -1,6 +1,6 @@
-first = input('Введите число: ')
-second = input('Введите число: ')
-third = input('Введите число: ')
+first = int(input('Введите число: '))
+second = int(input('Введите число: '))
+third = int(input('Введите число: '))
 if first == second == third:
     print('Одинаковых чисел: 3')
 elif first == third != second:
